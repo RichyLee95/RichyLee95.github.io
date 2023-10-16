@@ -6,6 +6,80 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* .about-me {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.5rem;
+  } */
+  
+  .about-me > li {
+	display: flex;
+	height: 400px;
+	width: 450px;
+	border: 1px solid black;
+	padding: 1rem;
+	background-color: #f0f0f0;
+  }
+  
+  /* .about-me > div {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.5rem;
+	padding: 1rem;
+	background-color: #f0f0f0;
+  } */
+  .about-me .fitness{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.5rem;
+	padding: 1rem;
+	background-color: #f0f0f0;
+  }
+.about-me .camping{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.5rem;
+	padding: 1rem;
+	background-color: #f0f0f0;
+}
+.about-me .cooking {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0.5rem;
+	padding: 1rem;
+	background-color: #f0f0f0;
+}
+
+.about-me .text-content {
+  flex: 1;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me .text-content h1{
+	font-size: 40px;
+	padding: 20px;
+}
+.about-me .text-content p {
+  margin: 0;
+}
+.about-title{
+	display:flex;
+	text-align: center;
+}
+.about-me .image-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+  .about-me img {
+	width:100%;
+	height: 100%;
+    object-fit: cover;
+  }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
